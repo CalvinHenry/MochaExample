@@ -5,6 +5,8 @@ Mocha does not interact with the front end of ones application, so you would not
 
 Using Mocha, you can import that parts of your code you want to test into the testing file, and then use the assert functions that mocha provides to test them. Below are examples showing how to install Mocha,  a basic example of Mocha testing and an example which imports and test code from another file. You can clone this repository to experiment with the given tests. 
 
+For more complicated tests, visit the Mocha webpage at: https://mochajs.org
+
 ## Instalation
 First, make sure that you have NPM installed on your computer. Then, run 
 ```
