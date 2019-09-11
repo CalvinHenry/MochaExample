@@ -36,8 +36,7 @@ describe('Basic Mocha Test', function () {
 ```
 There can be multiple test cases in each of the describe blocks. The describe message should describe the module that is being tested, and the string passed to the it function should describe the specific test case. 
 
-##
-Test with imported functions
+## Test with imported functions
 Mocha can also be used to test existing modules, as shown in the fibonachi.js file in this repo. Simply import the function that you want to test, and use them in a mocha test. 
 
 In the file you want to test, make sure that the code you want to import in the testing file can be imported. There are multiple ways to do this, but in this example we use the modules.export:
